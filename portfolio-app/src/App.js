@@ -1,6 +1,8 @@
 import './App.css';
 import NavBar from './components/NavBar';
 import About from './pages/About';
+// import Portfolio from './pages/Portfolio';
+// import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -9,7 +11,7 @@ function Home() {
     <main>
       <header className="home-page">
         <p>
-          Portfolio
+          Programmer. Developer. Learner.
         </p>
       </header>
     </main>
@@ -18,11 +20,12 @@ function Home() {
 
 function App() {
   return (
-    <Router>
+    <Router basename='portfolio'>
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          {/* <Route path="/projects" element={<Projects />} /> */}
           <Route path="/contact" element={<Contact />} />
         </Routes>
     </Router>

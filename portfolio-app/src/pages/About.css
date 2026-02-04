@@ -2,14 +2,20 @@
   background-color: #2d2832;
   min-height: 100vh;
 }
+
+a {
+  text-decoration: none;
+}
+
 .RP-mentioned .R {
     color:#7AC142
 }
 .RP-mentioned .P {
     color:rgb(255, 255, 255)
 }
+
 .about-container {
-  max-width: 1100px;
+  max-width: 1400px;
   margin: 0 auto;
   display: flex;
   gap: 2rem;
@@ -69,4 +75,64 @@
   .about-image {
     max-width: 100%;
   }
+}
+
+/* Certifications list */
+.certifications {
+  max-width: 1400px;
+  margin: 2.5rem auto 4rem auto;
+  padding: 0 1rem;
+}
+.cert-title {
+  color: rgba(250,240,255,0.95);
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+/* Make grid display horizontally */
+.cert-grid {
+  display: flex;             /* flex for horizontal layout */
+  gap: 1rem;
+  max-width: 1400px;         /* stay confined */
+  padding-bottom: 0.25rem;   /* optional padding */
+}
+.cert-card {
+  flex: 0 0 auto;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.04);
+  padding: 0.85rem 1rem;
+  border-radius: 8px;
+}
+.cert-icon img { 
+    display: block;
+    object-fit: contain;
+    width: 360px;
+}
+.cert-body {
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.cert-name {
+  font-weight: 700;
+  color: rgba(250,240,255,0.95);
+}
+.cert-issuer {
+  font-size: 0.9rem;
+  color: rgba(250,240,255,0.65);
+}
+
+@media (max-width: 640px) {
+  .cert-grid { grid-template-columns: 1fr; }
+}
+
+/* Scrollable container */
+.cert-scroll {
+  overflow-x: auto;          /* allow horizontal scroll */
+  padding-bottom: 0.5rem;    /* space for scrollbar */
+  -webkit-overflow-scrolling: touch; /* smooth scrolling on mobile */
 }

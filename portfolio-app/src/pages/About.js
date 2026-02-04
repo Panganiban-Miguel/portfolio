@@ -1,9 +1,14 @@
 import React from 'react';
 import './About.css';
+import CertCard from "../components/CertCard";
+import { certificates } from '../certificates/Certificates';
 
 function About() {
+
+
   return (
     <main id="about" className="about-page">
+      
       <div className="about-container">
         <div className="about-content">
           <h2 className='large-about'>/about</h2>
@@ -17,6 +22,30 @@ function About() {
           <img src="temp" alt="About visual placeholder" className="about-image" />
         </aside>
       </div>
+
+      <section className='certifications'>
+        <h3 className="cert-title">Certifications</h3>
+        
+        <div className='cert-scroll'>
+          
+          <div className="cert-grid">
+
+            {certificates.map((cert, index) => (
+            <CertCard
+              key={index}
+              name={cert.name}
+              issuer={cert.issuer}
+              year={cert.year}
+              link={cert.link}
+              thumbnail={cert.thumbnail}
+            />
+            ))}
+
+          </div>
+
+        </div>
+        
+      </section>
     </main>
   );
 }
