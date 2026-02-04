@@ -8,12 +8,13 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function Home() {
   return (
-    <main>
-      <header className="home-page">
+    <main className="home-page">
+      <header>
         <p>
           Programmer. Developer. Learner.
         </p>
       </header>
+      
     </main>
   );
 }
