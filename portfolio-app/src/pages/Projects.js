@@ -5,9 +5,11 @@ import { projectsData } from '../components/projectsData';
 
 function Projects() {
   return (
-    <main>
-      <header className="projects-page">
-        <section className="project-list">
+    <main className="projects-page">
+      <header>
+        <h2 className='large-header'>/projects</h2>
+      </header>
+      <section className="project-list">
           {projectsData.map((proj, index) => (
                       <ProjCard
                         key={index}
@@ -19,7 +21,6 @@ function Projects() {
                       />
                       ))} 
         </section>
-      </header>
     </main>
   );
 }
