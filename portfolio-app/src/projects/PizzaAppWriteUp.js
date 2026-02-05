@@ -9,11 +9,17 @@ function PizzaAppWriteUp() {
       <main>
         <header className='project-title'>
           <h1>
-            <a href="https://panganiban-miguel.github.io/pizza-app/" target='_blank' rel='noreferrer'>C219 - PizzaApp</a>
+            <a href="https://panganiban-miguel.github.io/pizza-app/" target='_blank' rel='noreferrer'>C219 - Fast React Pizza Co.</a>
           </h1>
         </header>
-
       </main>
+
+      <div className="project-description">
+        <p>
+          Fast React Pizza Co. is a pizza ordering application built using React.
+          
+        </p>
+      </div>
       <footer>
         <Link to="/projects" className="back-link">← Back to Projects</Link>
       </footer>

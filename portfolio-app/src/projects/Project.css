@@ -6,7 +6,6 @@
   align-items: center;
   justify-content: flex-start;
   padding: 2rem 1rem;
-  font-size: calc(10px + 2vmin);
   color: white;
   box-sizing: border-box;
 }
@@ -17,6 +16,7 @@
 }
 
 .project-title {
+  font-size: calc(10px + 2vmin);
   color: rgba(250,240,255,0.95);
   margin-bottom: 0.5rem;
 }
@@ -29,7 +29,7 @@
 
 /* Back link used on project write-up pages */
 .back-link {
-  color: rgba(250,240,255,0.9);
+  color: rgba(250,240,255,0.66);
   text-decoration: none;
   font-weight: 600;
   margin-top: 0.5rem;
@@ -38,4 +38,13 @@
 
 .back-link:hover {
   color: rgba(255,255,255,1);
+}
+
+.project-description {
+  width: 100%;
+  max-width: 720px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.04);
+  padding: 0.85rem 1rem;
+  border-radius: 8px;
 }

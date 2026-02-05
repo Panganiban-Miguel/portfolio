@@ -12,8 +12,8 @@ function BaroWriteUp() {
             C337 - Barotrauma (3D VR)
           </h1>
         </header>
-        
       </main>
+      
       <footer>
         <Link to="/projects" className="back-link">← Back to Projects</Link>
       </footer>

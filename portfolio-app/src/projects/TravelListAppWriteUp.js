@@ -12,8 +12,8 @@ function TravelListAppWriteUp() {
             <a href="https://panganiban-miguel.github.io/travel-list-app-starter/" target='_blank' rel='noreferrer'>C219 - Travel Packer List Application</a>
           </h1>
         </header>
-        
       </main>
+      
       <footer>
         <Link to="/projects" className="back-link">← Back to Projects</Link>
       </footer>

@@ -1,6 +1,6 @@
 export const projectsData = [
   {
-    name: "pizzaApp",
+    name: "Fast React Pizza Co.",
     desc: "TEMP",
     module: "C219",
     path: "/projects/pizza-app",
@@ -14,7 +14,7 @@ export const projectsData = [
     thumbnail: "projects/CardApp.",
   },
   {
-    name: "TravelListApp",
+    name: "Travel Packer List Application",
     desc: "TEMP",
     module: "C219",
     path: "/projects/travel-list-app",
@@ -28,7 +28,7 @@ export const projectsData = [
     thumbnail: "projects/WasteWise.",
   },
   {
-    name: "Baro",
+    name: "Barotrauma (3D VR)",
     desc: "TEMP",
     module: "C337",
     path: "/projects/baro",

@@ -12,8 +12,8 @@ function CardAppWriteUp() {
             C219 - CardApp
           </h1>
         </header>
-        
       </main>
+      
       <footer>
         <Link to="/projects" className="back-link">← Back to Projects</Link>
       </footer>

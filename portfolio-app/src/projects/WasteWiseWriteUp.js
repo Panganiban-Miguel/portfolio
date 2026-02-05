@@ -12,8 +12,8 @@ function WasteWiseWriteUp() {
             C346 - WasteWise
           </h1>
         </header>
-        
       </main>
+      
       <footer>
         <Link to="/projects" className="back-link">← Back to Projects</Link>
       </footer>
