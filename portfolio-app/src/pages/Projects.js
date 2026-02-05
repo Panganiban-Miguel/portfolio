@@ -1,24 +1,24 @@
 import React from 'react';
 import './Projects.css';
 import ProjCard from "../components/ProjCard";
-import { projectsData } from '../projects/projectsData';
+import { projectsData } from '../components/projectsData';
 
 function Projects() {
   return (
     <main>
       <header className="projects-page">
-        <p>
+        <section className="project-list">
           {projectsData.map((proj, index) => (
                       <ProjCard
                         key={index}
                         name={proj.name}
                         desc={proj.desc}
                         module={proj.module}
-                        link={proj.link}
+                        path={proj.path}
                         thumbnail={proj.thumbnail}
                       />
-                      ))}
-        </p>
+                      ))} 
+        </section>
       </header>
     </main>
   );
