@@ -9,14 +9,16 @@ function CardAppWriteUp() {
 
       <main>
         <header className='project-title'>
-          {/* <img src={require('../projects/./.')} alt="" className="project-image" /> */}
           <h1>C219 - CardApp</h1>
+          {/* <img src={require('../projects/./.')} alt="" className="project-image" /> */}
         </header>
       </main>
       
-      <div className="project-description">
+      <div className="project-summary">
         <p>
-          
+          This project was made for the purposes of learning about Frontend-Backend integration, 
+          React Router and CRUD. It is a simple card management system that communicates with an 
+          Express API backend to perform CRUD operations on a collection of cards.
         </p>
       </div>
 

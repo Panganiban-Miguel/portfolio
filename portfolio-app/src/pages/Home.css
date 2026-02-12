@@ -1,0 +1,80 @@
+.home-page {
+  background-color: #2d2832;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.home-page header {
+  max-width: 1400px;
+  width: 100%;
+  height: 320px;
+  text-align: center;
+}
+
+
+.skills-section {
+  width: 100%; /* span entire page width */
+  background-color: #1f1c24; /* dark box background */
+  padding: 4rem 1rem;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.skills-container {
+  width: 100%;
+  max-width: 1400px; /* center content and limit width */
+  color: #fff;
+}
+
+.skills-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 0.5rem;
+}
+
+.skills-columns {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+  flex-wrap: wrap; /* makes it responsive on smaller screens */
+}
+
+.skills-column {
+  flex: 1;
+  min-width: 250px;
+}
+
+.skills-column h2 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 0.25rem;
+}
+
+.skills-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills-column li {
+  font-size: 0.8rem;
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+
+/* Responsive for tablets/mobile */
+@media (max-width: 768px) {
+  .skills-columns {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
