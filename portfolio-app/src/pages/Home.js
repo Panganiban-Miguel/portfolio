@@ -21,25 +21,31 @@ function Home() {
         <div className="skills-container">
             <h1 className="skills-title">Skills</h1>
             <div className="skills-columns">
-                <div className="skills-column technical-skills">
-                    <h2>Technical Skills</h2>
-                    <ul>
-                    {technicalSkills.map((skill, index) => (
-                        <li key={index}>{skill}</li>
-                    ))}
-                    </ul>
-                </div>
-                <div className="skills-column soft-skills">
-                    <h2>Soft Skills</h2>
-                    <ul>
-                    {softSkills.map((skill, index) => (
-                        <li key={index}>{skill}</li>
-                    ))}
-                    </ul>
-                </div>
+              
+              <div className="skills-column technical-skills">
+                <h2>Technical Skills</h2>
+                
+                <ul>
+                  {technicalSkills.map((skill, index) => (
+                    <li key={index}>{skill}</li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="skills-column soft-skills">
+                <h2>Soft Skills</h2>
+                
+                <ul>
+                  {softSkills.map((skill, index) => (
+                    <li key={index}>{skill}</li>
+                  ))}
+                </ul>
+              </div>
+
             </div>
         </div>
       </section>
+
     </main>
   );
 }

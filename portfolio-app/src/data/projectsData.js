@@ -34,7 +34,13 @@ export const projectsData = [
     path: "/projects/waste-wise",
     thumbnail: "projects/wastewise/homepage.jpeg",
   },
-  
+  {
+    name: "EduReminder",
+    desc: "An application to help students with time management, task tracking, and study planning.",
+    module: "C219",
+    path: "/projects/EduReminder",
+    thumbnail: "projects/EduReminder/dashboard.png",
+  }
 
   // TBA
 ];

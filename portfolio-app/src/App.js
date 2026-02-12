@@ -10,6 +10,7 @@ import CardAppWriteUp from './projects/CardAppWriteUp';
 import TravelListAppWriteUp from './projects/TravelListAppWriteUp';
 import WasteWiseWriteUp from './projects/WasteWiseWriteUp';
 import BaroWriteUp from './projects/BaroWriteUp';
+import EduReminderWriteUp from './projects/EduReminderWriteUp';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 
 function App() {
@@ -32,11 +33,12 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/projects/pizza-app" element={<PizzaAppWriteUp />} />
-        <Route path="/projects/card-app" element={<CardAppWriteUp />} />
-        <Route path="/projects/travel-list-app" element={<TravelListAppWriteUp />} />
-        <Route path="/projects/waste-wise" element={<WasteWiseWriteUp />} />
         <Route path="/projects/baro" element={<BaroWriteUp />} />
+        <Route path="/projects/pizza-app" element={<PizzaAppWriteUp />} />
+        <Route path="/projects/travel-list-app" element={<TravelListAppWriteUp />} />
+        <Route path="/projects/card-app" element={<CardAppWriteUp />} />
+        <Route path="/projects/waste-wise" element={<WasteWiseWriteUp />} />
+        <Route path="/projects/edureminder" element={<EduReminderWriteUp />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>

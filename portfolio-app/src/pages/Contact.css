@@ -22,7 +22,7 @@
 .contact-title {
   font-size: 5rem;
   margin-bottom: 0.75rem;
-  color: rgb(250,240,255);
+  color: rgba(250,240,255,0.85);
 }
 
 .contact-lead {

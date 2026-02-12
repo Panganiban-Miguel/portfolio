@@ -10,7 +10,7 @@ function WasteWiseWriteUp() {
       <main>
         <header className='project-title'>
           <h1>C346 - WasteWise</h1>
-          <img src='../projects/wastewise/Homepage.jpeg' alt="WasteWise Screenshot" className="project-image-phone" />
+          <img src='../projects/wastewise/Homepage.jpeg' alt="WasteWise Homepage Screenshot" className="project-image-phone" />
         </header>
       </main>
       
