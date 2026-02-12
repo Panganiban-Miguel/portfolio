@@ -11,9 +11,7 @@ export default function ProjCard({ name, module, desc, path, thumbnail }) {
 
         <div className="proj-body">
           <div className="proj-name">{name}</div>
-          <div className="proj-desc">
-            {module} • {desc}
-          </div>
+          <div className="proj-desc">{module} • {desc}</div>
         </div>
       </Link>
     </div> 

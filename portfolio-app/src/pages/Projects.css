@@ -38,11 +38,11 @@
   box-sizing: border-box;
 }
 .proj-icon img { 
-    display: block;
-    object-fit: cover;
-    width: 100%;
-    height: auto;
-    border-radius: 6px;
+  justify-self: center;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 6px;
 }
 .proj-body {
   padding-top: 12px;
@@ -50,6 +50,7 @@
   flex-direction: column;
   width: 100%;
   text-align: left;
+  vertical-align: bottom;
 }
 .proj-name {
   font-weight: 700;
@@ -60,10 +61,7 @@
   color: rgba(250,240,255,0.65);
 }
 
+
 @media (max-width: 900px) {
   .project-list { grid-template-columns: 1fr; }
-}
-
-@media (max-width: 640px) {
-  .cert-grid { grid-template-columns: 1fr; }
 }
