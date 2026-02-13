@@ -43,9 +43,9 @@ function About() {
           </div>
         </div>
         
-        <aside className="about-aside" aria-hidden="true">
+        {/* <aside className="about-aside" aria-hidden="true">
           <img src="temp" alt="About" className="about-image" />
-        </aside>
+        </aside> */}
       </div>
     </main>
     
