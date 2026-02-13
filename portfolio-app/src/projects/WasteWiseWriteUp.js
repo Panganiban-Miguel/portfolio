@@ -14,7 +14,7 @@ function WasteWiseWriteUp() {
         </header>
       </main>
       
-      <div className="project-summary">
+      <div className="project-description">
         <p>
           "WasteWise" was made in collaboration with a team of four members, including myself. 
           It allows users to track their actions with Singapore's SG Green Plan in mind, 

@@ -11,7 +11,7 @@ export const projectsData = [
     desc: "A pseudo pizza ordering webpage made with React.",
     module: "C219",
     path: "/projects/pizza-app",
-    thumbnail: "projects/pizzaApp.",
+    thumbnail: "projects/pizzaapp/main.png",
   },
   {
     name: "Travel Packer List Application",
@@ -32,7 +32,7 @@ export const projectsData = [
     desc: "An application to help users track their eco-friendly actions and contribute to Singapore's SG Green Plan.",
     module: "C346",
     path: "/projects/waste-wise",
-    thumbnail: "projects/wastewise/homepage.jpeg",
+    thumbnail: "projects/wastewise/Homepage.jpeg",
   },
   {
     name: "EduReminder",

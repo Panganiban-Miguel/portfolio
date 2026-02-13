@@ -16,7 +16,7 @@ function TravelListAppWriteUp() {
         </header>
       </main>
       
-      <div className="project-summary">
+      <div className="project-description">
         <p>
           "My Travel List" is an application made for learning react, 
           allowing users to track items that they need to pack for 

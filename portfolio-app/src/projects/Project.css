@@ -56,7 +56,8 @@
   color: rgba(255,255,255,1);
 }
 
-.project-summary {
+.project-description {
+  text-align: center;
   justify-self: center;
   width: 100%;
   max-width: 1100px;
@@ -67,6 +68,35 @@
   border-radius: 8px;
 }
 
-.project-summary p {
+.project-description p {
   font-size: 32px;
+}
+
+
+.project-section {
+  max-width: 1100px;
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+  padding: 0.85rem 1rem;
+  flex:1;
+  flex-direction: row;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.04);
+  border-radius: 8px;
+}
+
+.project-section-text {
+  font-size: 16px;
+  margin-right: 16px;
+  flex:0.4;
+  margin: 16px;
+}
+
+.project-section-image {
+  flex: 0.6;
+  width: 550px;
+  object-fit: cover;
+  border-radius: 8px;
+  align-self: center;
 }

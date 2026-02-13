@@ -14,7 +14,7 @@ function CardAppWriteUp() {
         </header>
       </main>
       
-      <div className="project-summary">
+      <div className="project-description">
         <p>
           This project was made for the purposes of learning about Frontend-Backend integration, 
           React Router and CRUD. It is a simple card management system that communicates with an 

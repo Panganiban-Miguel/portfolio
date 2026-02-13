@@ -31,8 +31,15 @@
   opacity: 1;
 }
 .nav-links a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   opacity: 0.66;
+}
+
+.nav-links a.active {
+  background-color: rgba(200, 100, 255, 0.2);
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  margin: -0.5rem -0.75rem;
 }
 
 /* Brand link (logo) should behave like other nav links */

@@ -1,7 +1,7 @@
 import React from 'react';
 import './NavBar.css';
 import PDLogo from '../Brand Logo.png';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 function NavBar() {
   return (
@@ -11,9 +11,9 @@ function NavBar() {
             <img src={PDLogo} alt="Portfolio Logo" className="nav-logo" />
           </Link>
         <ul className="nav-links">
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/projects">Projects</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
+          <li><NavLink to="/about">About</NavLink></li>
+          <li><NavLink to="/projects">Projects</NavLink></li>
+          <li><NavLink to="/contact">Contact</NavLink></li>
         </ul>
       </div>
     </nav>

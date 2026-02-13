@@ -16,7 +16,7 @@ function EduReminderWriteUp() {
         </header>
       </main>
       
-      <div className="project-summary">
+      <div className="project-description">
         <p>
           "EduReminder" was made in collaboration with a team of 3 members, including myself. 
           Based on the idea that students struggle with keeping up with their academic schedules, 
