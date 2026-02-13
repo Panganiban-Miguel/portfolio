@@ -1,9 +1,3 @@
-html, body {
-  height: 100%;
-  margin: 0; /* Remove default margin */
-  overflow: hidden; /* Disable scrolling */
-}
-
 .contact-page {
   background-color: #2d2832;
   min-height: 100vh;
