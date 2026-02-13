@@ -39,7 +39,7 @@ export const projectsData = [
     desc: "An application to help students with time management, task tracking, and study planning.",
     module: "C219",
     path: "/projects/EduReminder",
-    thumbnail: "projects/EduReminder/dashboard.png",
+    thumbnail: "projects/edureminder/dashboard.png",
   }
 
   // TBA

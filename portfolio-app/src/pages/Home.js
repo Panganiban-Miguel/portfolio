@@ -45,7 +45,7 @@ function Home() {
           <div className="proj-card">
             <Link to="/projects/EduReminder" className="proj-path">
               <div className="proj-image" aria-hidden="true">
-                <img src={process.env.PUBLIC_URL + "/projects/EduReminder/dashboard.png"} alt="EduReminder" />
+                <img src={process.env.PUBLIC_URL + "/projects/edureminder/dashboard.png"} alt="EduReminder" />
               </div>
 
               <div className="proj-body">
