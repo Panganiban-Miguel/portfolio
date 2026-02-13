@@ -1,3 +1,9 @@
+html, body {
+  height: 100%;
+  margin: 0; /* Remove default margin */
+  overflow: hidden; /* Disable scrolling */
+}
+
 .contact-page {
   background-color: #2d2832;
   min-height: 100vh;
@@ -7,6 +13,7 @@
 .contact-container {
   flex: 1;
   max-width: 1400px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   gap: 2rem;
@@ -16,7 +23,7 @@
 }
 
 .contact-content {
-  flex: 0.8;
+  flex: 1;
 }
 
 .contact-title {

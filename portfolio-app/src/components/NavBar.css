@@ -19,7 +19,7 @@
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 32px;
   margin: 0;
   padding: 0;
 }
@@ -36,7 +36,7 @@
 }
 
 .nav-links a.active {
-  background-color: rgba(200, 100, 255, 0.2);
+  background-color: rgba(200, 100, 255, 0.15);
   padding: 0.5rem 0.75rem;
   border-radius: 6px;
   margin: -0.5rem -0.75rem;

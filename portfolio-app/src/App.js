@@ -6,7 +6,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import PizzaAppWriteUp from './projects/PizzaAppWriteUp';
-import CardAppWriteUp from './projects/CardAppWriteUp';
+// import CardAppWriteUp from './projects/CardAppWriteUp';
 import TravelListAppWriteUp from './projects/TravelListAppWriteUp';
 import WasteWiseWriteUp from './projects/WasteWiseWriteUp';
 import BaroWriteUp from './projects/BaroWriteUp';
@@ -36,7 +36,7 @@ function App() {
         <Route path="/projects/baro" element={<BaroWriteUp />} />
         <Route path="/projects/pizza-app" element={<PizzaAppWriteUp />} />
         <Route path="/projects/travel-list-app" element={<TravelListAppWriteUp />} />
-        <Route path="/projects/card-app" element={<CardAppWriteUp />} />
+        {/* <Route path="/projects/card-app" element={<CardAppWriteUp />} /> */}
         <Route path="/projects/waste-wise" element={<WasteWiseWriteUp />} />
         <Route path="/projects/edureminder" element={<EduReminderWriteUp />} />
         <Route path="/contact" element={<Contact />} />

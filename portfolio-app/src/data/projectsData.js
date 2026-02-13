@@ -20,13 +20,13 @@ export const projectsData = [
     path: "/projects/travel-list-app",
     thumbnail: "projects/travellistapp/mainpage.png",
   },
-  {
-    name: "CardApp",
-    desc: "A simple card management system with CRUD operations.",
-    module: "C219",
-    path: "/projects/card-app",
-    thumbnail: "projects/CardApp.",
-  },
+  // {
+  //   name: "CardApp",
+  //   desc: "A simple card management system with CRUD operations.",
+  //   module: "C219",
+  //   path: "/projects/card-app",
+  //   thumbnail: "projects/CardApp.",
+  // },
   {
     name: "WasteWise",
     desc: "An application to help users track their eco-friendly actions and contribute to Singapore's SG Green Plan.",
