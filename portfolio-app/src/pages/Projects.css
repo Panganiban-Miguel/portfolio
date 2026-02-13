@@ -5,13 +5,27 @@
   flex-direction: column;
   align-items: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgba(250, 240, 255, 0.95);
+}
+.header h2,
+.header p {
+  text-align: center;
+  justify-self: center;
+}
+.header p {
+  color: rgba(250, 240, 255, 0.66);
+}
+.R {
+    color:#7AC142
+}
+.P {
+    color:rgb(255, 255, 255)
 }
 .large-header {
   font-size: 5rem;
   font-weight: 690;
   text-align: left;
-  color: rgba(250, 240, 255, 0.85);
+  color: rgba(250, 240, 255, 0.95);
 }
 .project-list {
   display: grid;

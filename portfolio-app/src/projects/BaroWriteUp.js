@@ -28,16 +28,25 @@ function BaroWriteUp() {
       <div className='project-section'>
         <div className='project-section-text'>
           <p>
-          The moment I had started this project, I had the immediate idea 
-          for how I wanted the puzzles to be. However, I quickly learnt that 
-          I was growing too ambitious with my ideas, needing to tone down how 
-          much I was going to include in the project if I wanted to get it done 
-          in a timely fashion.
-        </p>
+            The moment I had started this project, I had the immediate idea 
+            for how I wanted the puzzles to be. However, I quickly learnt that 
+            I was growing too ambitious with my ideas, needing to tone down how 
+            much I was going to include in the project if I wanted to get it done 
+            in a timely fashion.
+          </p>
+          <p>
+            We started our projects by creating a user flow. The image on the 
+            right is what I had prepared for the first room. Although simple, it 
+            started off strong with the atmosphere. There was a red light being 
+            emitted by the locker with the player's ID card located inside. I 
+            wanted the light to subtly guide the player towards the closed locker, 
+            which was actually pretty clearly shown in my VR Panorama.
+          </p>
         </div>
         
         <img src='../projects/baro/Flow-Chart 1 - Crew Area.jpg' alt="User Flow - 1" className="project-section-image" />
       </div>
+      <img src='../projects/baro/Panoramic Interior Sketch.png' alt="User Flow - 1" className="project-image" />
 
       <footer>
         <Link to="/projects" className="back-link">← Back to Projects</Link>
